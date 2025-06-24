@@ -1,6 +1,6 @@
 # Desafio I2A2: Análise de CSV
 
-## Mini-tutorial sobre a criação de Agente para análise de arquivos CSV zipados (para ser utilizado localmente em ambiente Windows)
+## Mini-tutorial sobre a criação de Agente de IA para análise de arquivos CSV zipados (para ser utilizado localmente em ambiente Windows)
 
 1. No chatGPT 4o, realizar o upload dos arquivos a serem analisados e inserir o seguinte prompt:
 Now, you are a GenAI Application Engineer. Analyze these uploaded CSV files. Create one (or more, if necessary) agents that allow a user to ask questions about the uploaded CSV files provided. The agent mode of operation includes: an interface where the user enters his/her question and the agent(s) generates the response; the agent(s) must unzip the files, select the desired file, load the data, perform the queries and generate the response for the user. Technologies like Python scripts or LowCode/NoCode tools can be used (I prefer Python-based ones). We must use at least 1 of the following frameworks/tools: • https://autogenhub.github.io/autogen/ • https://ai.pydantic.dev/ • https://www.langchain.com/ • https://www.llamaindex.ai/ • https://www.crewai.com/ • https://n8n.io/ • https://www.langflow.org/. Give me the whole architecture, as well as a step by step guide to deploy the agent(s).
