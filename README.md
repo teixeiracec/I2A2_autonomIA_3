@@ -16,18 +16,8 @@ o	Produtos, quantidade, CFOP, NCM, valores unitários e totais
 Esses dois arquivos se relacionam pela "Chave de Acesso", possibilitando consultas por perguntas em linguagem natural com contexto cruzado.
 
 2.2 Arquitetura da Solução (LangChain + Streamlit + OpenAI)
-┌───────────────┐
-│ Interface Web │ ← Usuário pergunta em linguagem natural
-└──────┬────────┘
-       ▼
-┌──────────────────────────────┐
-│ Agente LangChain CSV Agent   │ ← usa LLM da OpenAI
-└──────┬───────────────────────┘
-       ▼
-┌──────────────────────────────┐
-│ DataFrames dos arquivos CSV  │ ← extraídos de 202401_NFs.zip
-└──────────────────────────────┘
 
+![image](https://github.com/user-attachments/assets/ece5e0c1-ce12-4ef6-9762-464a690f0dbe)
 
 2.3 Ferramenta utilizada: LangChain
 •	Usada diretamente para criar o agente de consulta baseado em arquivos CSV.
