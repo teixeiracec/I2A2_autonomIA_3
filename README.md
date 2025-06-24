@@ -9,10 +9,12 @@ Now, you are a GenAI Application Engineer. Analyze these uploaded CSV files. Cre
 
 2.1 Visão Geral dos Arquivos CSV
 O arquivo compactado (202401_NFs.zip) contém:
+
 •	202401_NFs_Cabecalho.csv: metadados das notas fiscais, como:
 o	Chave de acesso, CNPJ, data de emissão, valor total, UF etc.
 •	202401_NFs_Itens.csv: itens vendidos ou movimentados nas notas:
 o	Produtos, quantidade, CFOP, NCM, valores unitários e totais
+
 Esses dois arquivos se relacionam pela "Chave de Acesso", possibilitando consultas por perguntas em linguagem natural com contexto cruzado.
 
 2.2 Arquitetura da Solução (LangChain + Streamlit + OpenAI)
