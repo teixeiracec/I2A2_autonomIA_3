@@ -38,3 +38,6 @@ streamlit run app_interface.py
 Acesse a versão hospedada no **Streamlit Cloud**:  
 
 [🔗 **SICOF no Streamlit**](https://i2a2autonomia3-hfg8zvjkfcykuekcvdzmwv.streamlit.app/)
+
+## Licença
+Este conteúdo encontra-se sob licença MIT.
